@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>Chat Window App</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+		
+        <!--STYLESHEETS-->
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!--JAVASCRIPT-->
+		<script src="js/vendor/prototype.js"></script>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </head>
+    
+    
+    
+    
+    <body>
+		
+        
+        <!-- HEADER -->
+        <div class="header_container">
+            <header class="chat_window_header">
+            	<span class="title_container">
+                	<span class="title"></span>
+                    <span id="sethdaniel_logo_container">
+                    	<img id="sethdaniel_logo" alt="Seth McDonald" src="http://sethdaniel.info/images/SethLogo02.png"/>
+                    </span>
+                    <span id="phone_number_banner">h510.537.3785||c450.525.7165</span>
+                </span>
+            </header>
+        <span class="username_banner_container"></span>
+        </div>
+        
+        
+        
+		<div class="clearfloat"></div>
+
+
+
+		<!-- MAIN -->
+        <section class="main_container">
+         	
+            <div class="conversation_box_wrapper">
+            
+            <div class="spacer_10_percent"></div>
+            
+            	<div class="conversation_box">
+                
+                
+                <div id="coversation_box_directive_display_container" class="directive_display_container">
+                
+                <div class="spacer_10_percent"></div>
+                
+                	<h1 id="enter_user_name_directive_display" class="directive_display">Please enter a username and click Send to chat with us</h1>
+                    
+                </div>
+                
+                
+<!--                	<div class="message_display_wrapper">
+                    
+                    	<div class="message_sender_container">Suzy:</div>
+                    	<div class="message_body_container">How are you?</div>
+                    	<div class="message_time_container">1:25pm</div>
+                    
+                    </div>
+-->                
+                </div>
+            
+            </div>
+              
+        </section> <!-- #main_container -->
+
+
+
+		<div class="clearfloat"></div>
+		
+        
+        
+		<!-- FOOTER -->
+        <section class="compose_message_container">
+        
+        	<div class="compose_message_box">
+            
+            	<table class="compose_message_table" cellpadding="2" cellspacing="0" border="0">
+                
+                	<td class="compose_message_tablecell" >
+                        <textarea id="compose_message_textbox" class="compose_message_textbox" ></textarea>
+                    </td>
+                    
+                    <td class="send_message_tablecell">
+                        <div class="send_message_button">Send</div>
+                    </td>
+                    
+                </table>
+                
+            </div>
+        
+        </section>
+
+
+    </body>
+</html>
